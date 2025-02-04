@@ -50,3 +50,15 @@ To validate a scenario where execution resumes after a service restart:
 ### Running in Cluster Mode
 To run the application in cluster mode, enable the cluster properties in `application.yaml`.
 
+### Video DEMO
+
+
+https://github.com/user-attachments/assets/a6ea8c06-ce4d-443a-b3f5-00cfd8ae0e56
+
+
+https://github.com/user-attachments/assets/04ebf0dd-8d1c-442d-97f0-c01cb5d80c8a
+
+
+https://github.com/user-attachments/assets/a1cdd301-b759-4271-8655-246ccd80c324
+
+
