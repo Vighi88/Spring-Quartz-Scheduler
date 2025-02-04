@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.vicky.poc.delayed.scheduler</groupId>
-	<artifactId>poc-delayed-scheduler</artifactId>
+	<artifactId>spring-quartz-scheduler</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>poc-delayed-scheduler</name>
+	<name>spring-quartz-scheduler</name>
 	<description>POC for Spring Scheduler and Quartz</description>
 	<url/>
 	<properties>
