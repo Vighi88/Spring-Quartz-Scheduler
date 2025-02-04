@@ -1,0 +1,27 @@
+server:
+  port: 8091  # 👈 Set the application to run on port 8091
+spring:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: admin123
+    driverClassName: org.postgresql.Driver
+  quartz:
+    job-store-type: jdbc
+    properties:
+      org:
+        quartz:
+          jobStore:
+            driverDelegateClass: org.quartz.impl.jdbcjobstore.PostgreSQLDelegate
+            #isClustered: true # 👈 CHANGE IT!
+            #clusterCheckinInterval: 10000
+          scheduler:
+            instanceName: ClusteredScheduler
+            instanceId: AUTO
+            makeSchedulerThreadDaemon: true
+          threadPool:
+            class: org.quartz.simpl.SimpleThreadPool
+            threadCount: 10
+logging:
+    level:
+      org.quartz: DEBUG
